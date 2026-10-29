@@ -1,0 +1,102 @@
+[
+  {
+    "query": "How do you reverse a linked list in Python?",
+    "true_domain": "programming",
+    "router_weights": {
+      "programming": 0.9367402195930481,
+      "finance": 0.06325973570346832
+    },
+    "static_response": "### Instruction:\nHow do you reverse a linked list in Python?\n\n### Response:\nTo reverse a linked list in Python, you can use the following code:\n\n```python\nclass Node:\n    def __init__(self, data):\n        self.data = data\n        self.next = None\n\ndef reverse_linked_list(head):\n    prev = None\n    current = head\n    while current is not None:\n        next_node = current.next  # Store the next node\n        current",
+    "router_response": "### Instruction:\nHow do you reverse a linked list in Python?\n\n### Response:\nTo reverse a linked list in Python, you can use the following code:\n\n```python\nclass Node:\n    def __init__(self, data):\n        self.data = data\n        self.next = None\n\ndef reverse_linked_list(head):\n    prev = None\n    current = head\n    while current is not None:\n        next_node = current.next  # Store the next node\n        current"
+  },
+  {
+    "query": "What is the difference between a stack and a queue?",
+    "true_domain": "programming",
+    "router_weights": {
+      "programming": 0.25139015913009644,
+      "finance": 0.7486098408699036
+    },
+    "static_response": "### Instruction:\nWhat is the difference between a stack and a queue?\n\n### Response:\nA stack is a linear data structure that follows the Last In, First Out (LIFO) principle. It allows elements to be added or removed from the top of the stack in any order.\n\nOn the other hand, a queue is also a linear data structure but it follows the First In, First Out (FIFO) principle. It allows elements to be added at the front of the queue and",
+    "router_response": "### Instruction:\nWhat is the difference between a stack and a queue?\n\n### Response:\nA stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle, meaning elements are added to the top of the stack first. A queue, on the other hand, is a linear data structure that follows the First-In-First-Out (FIFO) principle, meaning elements are removed from the front of the queue first."
+  },
+  {
+    "query": "Explain how recursion works with an example.",
+    "true_domain": "programming",
+    "router_weights": {
+      "programming": 0.7899463772773743,
+      "finance": 0.21005366742610931
+    },
+    "static_response": "### Instruction:\nExplain how recursion works with an example.\n\n### Response:\nRecursion is a programming technique where a function calls itself to solve a problem. It involves breaking down the problem into smaller subproblems until they are trivial, and then combining those solutions to form the final solution.\n\nFor example, consider the Fibonacci sequence, which starts with 0 and 1 as the first two numbers:\n\n```python\ndef fibonacci(n):\n    if n <= 1:\n        return",
+    "router_response": "### Instruction:\nExplain how recursion works with an example.\n\n### Response:\nRecursion is a process where a function calls itself repeatedly until it reaches a base case. The base case is the simplest or most basic case that the recursive function can reach, and it serves as the stopping point for the recursion. For example, consider the factorial function:\n\ndef factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-"
+  },
+  {
+    "query": "What does Big O notation measure?",
+    "true_domain": "programming",
+    "router_weights": {
+      "programming": 0.11300677806138992,
+      "finance": 0.8869932293891907
+    },
+    "static_response": "### Instruction:\nWhat does Big O notation measure?\n\n### Response:\nBig O notation measures the upper bound of an algorithm's performance, indicating the maximum time or space complexity it can achieve. It provides a way to compare different algorithms and determine which one is more efficient in terms of resource usage.\n\nIn other words, Big O notation helps us understand how an algorithm will behave as its input size grows larger, providing insights into its scalability and efficiency. By analyzing the growth rate",
+    "router_response": "### Instruction:\nWhat does Big O notation measure?\n\n### Response:\nBig O notation measures the upper bound of an algorithm's running time, indicating that the runtime is bounded by a constant factor times the input size."
+  },
+  {
+    "query": "What is the difference between a stock and a bond?",
+    "true_domain": "finance",
+    "router_weights": {
+      "programming": 0.0375097319483757,
+      "finance": 0.9624902606010437
+    },
+    "static_response": "### Instruction:\nWhat is the difference between a stock and a bond?\n\n### Response:\nA stock represents ownership in an entity, while a bond represents debt owed by that entity to its creditors.",
+    "router_response": "### Instruction:\nWhat is the difference between a stock and a bond?\n\n### Response:\nA stock represents ownership in an entity, while a bond represents debt owed by that entity to its creditors."
+  },
+  {
+    "query": "What does compound interest mean?",
+    "true_domain": "finance",
+    "router_weights": {
+      "programming": 0.015064036473631859,
+      "finance": 0.9849359393119812
+    },
+    "static_response": "### Instruction:\nWhat does compound interest mean?\n\n### Response:\nCompound interest is the interest earned on an initial principal amount, which has been invested for a certain period of time.",
+    "router_response": "### Instruction:\nWhat does compound interest mean?\n\n### Response:\nCompound interest is the interest earned on an initial principal amount, which has been invested for a certain period of time."
+  },
+  {
+    "query": "Explain what a mutual fund is.",
+    "true_domain": "finance",
+    "router_weights": {
+      "programming": 0.013948979787528515,
+      "finance": 0.9860510230064392
+    },
+    "static_response": "### Instruction:\nExplain what a mutual fund is.\n\n### Response:\nA mutual fund is an investment vehicle that pools money from many investors to purchase shares of stocks, bonds, or other securities.",
+    "router_response": "### Instruction:\nExplain what a mutual fund is.\n\n### Response:\nA mutual fund is an investment vehicle that pools money from many investors to purchase securities or other assets."
+  },
+  {
+    "query": "What is the role of a central bank?",
+    "true_domain": "finance",
+    "router_weights": {
+      "programming": 0.003926911856979132,
+      "finance": 0.9960731267929077
+    },
+    "static_response": "### Instruction:\nWhat is the role of a central bank?\n\n### Response:\nA central bank acts as an intermediary between the government and the market, providing monetary policy guidance to regulate financial markets.",
+    "router_response": "### Instruction:\nWhat is the role of a central bank?\n\n### Response:\nA central bank acts as an intermediary between the government and the market, providing monetary policy guidance to regulate financial markets."
+  },
+  {
+    "query": "What programming techniques are used to detect fraud in banking transactions?",
+    "true_domain": "mixed",
+    "router_weights": {
+      "programming": 0.5112692713737488,
+      "finance": 0.48873066902160645
+    },
+    "static_response": "### Instruction:\nWhat programming techniques are used to detect fraud in banking transactions?\n\n### Response:\nDetecting fraud in banking transactions involves several programming techniques. One common approach is using machine learning algorithms, such as decision trees or neural networks, to analyze patterns and anomalies in the data.\n\nAnother technique is using statistical methods, such as regression analysis or clustering, to identify potential fraudulent activities based on historical transaction data.\n\nAdditionally, some banks use artificial intelligence (AI) systems that can automatically flag suspicious activity by",
+    "router_response": "### Instruction:\nWhat programming techniques are used to detect fraud in banking transactions?\n\n### Response:\nDetecting fraud in banking transactions involves the use of machine learning algorithms and statistical analysis. Techniques include using natural language processing (NLP) for text-based fraud detection, as well as deep learning models for image-based fraud detection."
+  },
+  {
+    "query": "How would you build a trading bot that executes stock trades automatically?",
+    "true_domain": "mixed",
+    "router_weights": {
+      "programming": 0.7536713480949402,
+      "finance": 0.2463286817073822
+    },
+    "static_response": "### Instruction:\nHow would you build a trading bot that executes stock trades automatically?\n\n### Response:\nTo build a trading bot that executes stock trades automatically, we can use various programming languages and frameworks. One popular choice is Python with libraries such as `yfinance` for financial data retrieval and `pandas` for data manipulation.\n\nHere's an example of how to create a simple trading bot using Python:\n\n```python\nimport yfinance as yf\nimport pandas as pd\n\n# Define the ticker",
+    "router_response": "### Instruction:\nHow would you build a trading bot that executes stock trades automatically?\n\n### Response:\nTo build a trading bot that executes stock trades automatically, we can use a combination of machine learning and artificial intelligence techniques. We could use algorithms to analyze historical data on stocks, identify potential buy or sell signals based on market trends, and then execute trades accordingly. Additionally, we could integrate with third-party APIs for real-time market data and automate the process further by setting up automated trading strategies."
+  }
+]

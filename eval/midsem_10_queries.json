@@ -1,0 +1,132 @@
+[
+    {
+        "query": "What is a mutual fund and how does it pool money?",
+        "weights": {
+            "programming": 0.017292654141783714,
+            "finance": 0.9827073216438293
+        },
+        "router_math_ms": 25.98,
+        "static_gen_ms": 7800.58,
+        "router_gen_ms": 896.37,
+        "peak_vram_mb": 1046.77,
+        "static_response": "A mutual fund is an investment vehicle that pools the assets of multiple investors to create a diversified portfolio. It allows investors to invest in a wide range of securities, such as stocks, bonds, and real estate, while also providing tax benefits through dividends and capital gains.\n\nMutual funds are managed by professional fund managers who select investments based on their research and analysis of market trends. The funds are then sold to investors at predetermined prices, which can fluctuate depending on supply and demand.\n\nOne key feature of",
+        "router_response": "A mutual fund pools the funds of many investors to buy stocks, bonds, or other securities."
+    },
+    {
+        "query": "How do you write a standard for loop in Python?",
+        "weights": {
+            "programming": 0.987776517868042,
+            "finance": 0.012223460711538792
+        },
+        "router_math_ms": 6.64,
+        "static_gen_ms": 843.57,
+        "router_gen_ms": 4838.12,
+        "peak_vram_mb": 1048.14,
+        "static_response": "A standard for loop is defined as: `for variable_name in iterable_object:`.",
+        "router_response": "To write a standard for loop in Python, you can use the `for` statement. Here's an example:\n\n```python\nfor i in range(10):\n    print(i)\n```\n\nIn this example, the `range(10)` function generates a sequence of numbers from 0 to 9 (inclusive). The `for` statement then iterates over each number in this sequence and prints it.\n\nYou can also specify a step value when using the `range()` function. For"
+    },
+    {
+        "query": "What does compound interest mean for a long-term investment?",
+        "weights": {
+            "programming": 0.013834454119205475,
+            "finance": 0.9861655235290527
+        },
+        "router_math_ms": 9.46,
+        "static_gen_ms": 4984.92,
+        "router_gen_ms": 1547.54,
+        "peak_vram_mb": 1046.91,
+        "static_response": "Compound interest is the process of earning interest on both the principal amount and any previously earned interest. It works by adding the interest to the principal, which then earns interest again, creating an exponential growth effect.\n\nFor example, if you invest $1000 at 5% annual interest rate over a period of 10 years, the total amount after 10 years would be:\n\n$1000 + ($1000 * 5%) = $1050",
+        "router_response": "Compound interest is the interest earned on the principal amount and accumulated interest, which means that the interest earned in one period becomes part of the principal for the next period."
+    },
+    {
+        "query": "What is the exact difference between a list and a tuple in Python?",
+        "weights": {
+            "programming": 0.8704408407211304,
+            "finance": 0.12955917418003082
+        },
+        "router_math_ms": 7.2,
+        "static_gen_ms": 1079.24,
+        "router_gen_ms": 3462.31,
+        "peak_vram_mb": 1047.67,
+        "static_response": "A list is an ordered collection of elements, whereas a tuple is an ordered collection of elements with identical data types.",
+        "router_response": "In Python, a list is an ordered collection of elements that can be accessed using indexing. Lists are mutable, meaning you can change their contents after they are created.\n\nOn the other hand, a tuple is also an ordered collection of elements, but it is immutable. Tuples cannot be changed once they are created, unlike lists which allow for modification through slicing or unpacking."
+    },
+    {
+        "query": "Write a Python script using pandas to track a stock portfolio.",
+        "weights": {
+            "programming": 0.32192981243133545,
+            "finance": 0.6780701875686646
+        },
+        "router_math_ms": 33.96,
+        "static_gen_ms": 5305.43,
+        "router_gen_ms": 4572.7,
+        "peak_vram_mb": 1048.17,
+        "static_response": "```python\nimport pandas as pd\n\n# Create a DataFrame for the stock portfolio\nportfolio = pd.DataFrame({\n    'Stock': ['AAPL', 'GOOGL', 'MSFT'],\n    'Price': [120, 350, 45]\n})\n\nprint(portfolio)\n```\n\nThis code snippet creates a DataFrame with three columns: 'Stock' and two rows representing the stocks 'AAPL', 'GOOGL', and 'MSFT'. The 'Price",
+        "router_response": "```python\nimport pandas as pd\n\n# Initialize the DataFrame with initial data\ndf = pd.DataFrame({\n    'Date': ['2017-01-01', '2017-01-02', '2017-01-03'],\n    'Stock': ['AAPL', 'MSFT', 'GOOGL']\n})\n\n# Add new entries for 2017-01-04 and 201"
+    },
+    {
+        "query": "What is a recursive function, and how does the call stack manage its memory?",
+        "weights": {
+            "programming": 0.8153627514839172,
+            "finance": 0.18463721871376038
+        },
+        "router_math_ms": 7.45,
+        "static_gen_ms": 1651.2,
+        "router_gen_ms": 2951.37,
+        "peak_vram_mb": 1047.44,
+        "static_response": "A recursive function is a function that calls itself repeatedly. The call stack manages this by storing the current state of the function's execution in memory until it returns or an error occurs.",
+        "router_response": "A recursive function is a function that calls itself repeatedly until it reaches a base case. The call stack manages the memory of each function call by storing the local variables and data used during the execution of the function. When a function call returns, the system restores the state of the previous function call to prevent infinite recursion."
+    },
+    {
+        "query": "What is the mechanism behind algorithmic high-frequency trading latency?",
+        "weights": {
+            "programming": 0.047961797565221786,
+            "finance": 0.9520382285118103
+        },
+        "router_math_ms": 9.46,
+        "static_gen_ms": 5227.6,
+        "router_gen_ms": 2132.97,
+        "peak_vram_mb": 1047.08,
+        "static_response": "Algorithmic high-frequency trading (AHFT) involves using algorithms to execute trades at extremely fast speeds, often in milliseconds. The latency of an AHFT system can be influenced by several factors, including the complexity and efficiency of the algorithms used, the size of the market, and the availability of data.\n\nOne potential mechanism for increasing latency in an AHFT system could be through the use of more complex algorithms that require a significant amount of computational power or time to execute. This could lead to increased processing times",
+        "router_response": "Algorithmic high-frequency trading relies on sophisticated algorithms that execute trades at extremely fast speeds, often exceeding 100 times per second. This allows them to capitalize on market movements and exploit price differences between buyers and sellers within milliseconds."
+    },
+    {
+        "query": "If a central bank decreases interest rates, why exactly do bond prices go up?",
+        "weights": {
+            "programming": 0.024282481521368027,
+            "finance": 0.9757174849510193
+        },
+        "router_math_ms": 6.74,
+        "static_gen_ms": 4382.55,
+        "router_gen_ms": 2023.17,
+        "peak_vram_mb": 1047.05,
+        "static_response": "When the central bank lowers interest rates, it makes borrowing cheaper for businesses and consumers. This leads to an increase in investment demand, which drives up the demand for bonds issued by financial institutions.\n\nAs more people invest in bonds, they require higher returns than traditional savings accounts or other forms of fixed income. Therefore, the demand for these bonds increases, leading to an appreciation in their value.\n\nAdditionally, when the central bank lowers interest rates, it also reduces the cost of borrowing from foreign investors. This can",
+        "router_response": "When the central bank lowers interest rates, it reduces the cost of borrowing for investors. This allows them to purchase bonds at lower yields, which increases the demand for these bonds and drives their price up."
+    },
+    {
+        "query": "Write a Python script that calculates the 30-day moving average of a stock.",
+        "weights": {
+            "programming": 0.6092751026153564,
+            "finance": 0.39072489738464355
+        },
+        "router_math_ms": 9.44,
+        "static_gen_ms": 4000.99,
+        "router_gen_ms": 3268.31,
+        "peak_vram_mb": 1047.63,
+        "static_response": "```python\nimport pandas as pd\n\n# Assuming 'stock_data' is your DataFrame containing the stock data\nstock_data['MA_30'] = stock_data['Close'].rolling(window=30).mean()\n```\n\nThis code snippet demonstrates how to calculate the 30-day moving average for a given column in a Pandas DataFrame. ```",
+        "router_response": "```python\nimport pandas as pd\n\n# Assuming 'stock_data' is your DataFrame containing the stock data\nstock_data['30_day_MA'] = stock_data['Close'].rolling(window=30, min_periods=1).mean()\n```\n\nThis code snippet demonstrates how to calculate the 30-day moving average using Pandas in Python."
+    },
+    {
+        "query": "What is the most efficient way to manage a queue in a banking system?",
+        "weights": {
+            "programming": 0.36092016100883484,
+            "finance": 0.6390798687934875
+        },
+        "router_math_ms": 8.31,
+        "static_gen_ms": 4407.38,
+        "router_gen_ms": 1637.27,
+        "peak_vram_mb": 1046.96,
+        "static_response": "In a banking system, a queue can be used to manage transactions or operations. One common approach is to use a circular buffer, which allows for efficient insertion and deletion of elements at both ends.\n\nHere's an example implementation using Python:\n\n```python\nclass Queue:\n    def __init__(self):\n        self.queue = []\n\n    def enqueue(self, item):\n        self.queue.append(item)\n\n    def dequeue(self):\n        if not self.is_empty():\n            return self.queue.pop(0)\n        else",
+        "router_response": "The most efficient way to manage a queue in a banking system is by using a priority-based queue, where transactions are prioritized based on their importance or urgency."
+    }
+]

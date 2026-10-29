@@ -1,0 +1,23 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+model/
+runs/
+
+# local environments and caches
+venv/
+.venv/
+.cache/
+Users/
+
+# local config, logs, editor files
+.env
+*.log
+.vscode/
+.idea/
+.claude/
+
+# project notes kept out of the public repo
+CLAUDE.md
+PROJECT_PLAN.md
+REPORT.md
